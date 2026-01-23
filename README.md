@@ -81,15 +81,17 @@ The following graphs correspond to the **best configuration**:
 | FashionMNIST | RBF | **85.15** | 3791 |
 
 ---
+### CPU vs GPU Performance Comparison
 
-## CPU vs GPU Performance
+| Compute | Batch Size | Optimizer | Learning Rate | ResNet-18 Accuracy (%) | ResNet-32 Accuracy (Optional) (%) | ResNet-50 Accuracy (%) | ResNet-18 Train Time (ms) | ResNet-32 Train Time (Optional) (ms) | ResNet-50 Train Time (ms) | ResNet-18 FLOPs | ResNet-32 FLOPs (Optional) | ResNet-50 FLOPs |
+|--------|-----------|-----------|---------------|-----------------------|----------------------------------|-----------------------|---------------------------|--------------------------------------|---------------------------|---------------|----------------------------|---------------|
+| CPU | 16 | SGD | 0.001 | 85.95 | NA | 80.62 | 54075 | NA | 130139 | 1.824 | NA | 4.132 |
+| CPU | 16 | Adam | 0.001 | 85.85 | NA | 80.95 | 56384 | NA | 131496 | 1.824 | NA | 4.132 |
+| GPU | 16 | SGD | 0.001 | 90.42 | NA | 89.64 | 40988 | NA | 76061 | 1.824 | NA | 4.132 |
+| GPU | 16 | Adam | 0.001 | 90.59 | NA | 89.22 | 44224 | NA | 81390 | 1.824 | NA | 4.132 |
 
-| Compute | Model | Accuracy (%) | Train Time (ms) | FLOPs |
-|-------|------|--------------|-----------------|-------|
-| CPU | ResNet-18 | 85.95 | 54075 | 1.824 |
-| CPU | ResNet-50 | 80.62 | 130139 | 4.132 |
-| GPU | ResNet-18 | **90.59** | **44224** | 1.824 |
-| GPU | ResNet-50 | **89.64** | **76061** | 4.132 |
+
+
 
 ---
 
