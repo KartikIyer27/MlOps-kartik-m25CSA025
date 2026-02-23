@@ -1,4 +1,8 @@
 # MlOps-kartik-m25CSA025
+Docker image building: docker build -t m25csa025_ass3:v2 .
+Building Continer: docker run -it --rm --gpus all --shm-size=8g -v $(pwd):/workspace m25csa025_ass3:v2
+
+
 #results
 
                          precision    recall   f1-score   support
