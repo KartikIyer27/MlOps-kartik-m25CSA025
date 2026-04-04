@@ -1,0 +1,6 @@
+trial=0,r=4,alpha=2,lr=5e-05,best_val_acc=0.2927,trainable_params=110592
+trial=1,r=8,alpha=2,lr=2e-05,best_val_acc=0.0520,trainable_params=221184
+trial=2,r=8,alpha=8,lr=5e-05,best_val_acc=0.4042,trainable_params=221184
+trial=4,r=8,alpha=8,lr=5e-05,best_val_acc=0.3779,trainable_params=221184
+trial=5,r=2,alpha=8,lr=5e-05,best_val_acc=0.3738,trainable_params=55296
+trial=7,r=8,alpha=4,lr=0.0001,best_val_acc=0.4260,trainable_params=221184

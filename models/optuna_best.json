@@ -1,0 +1,8 @@
+{
+    "best_value": 0.426,
+    "best_params": {
+        "r": 8,
+        "alpha": 4,
+        "lr": 0.0001
+    }
+}
